@@ -13407,5 +13407,13 @@ overflow: hidden;
         position: relative;
         top: 10px;
         text-align: right;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero .hero-content h1 {
+        position: relative;
+        top: 10px;
     }
 }
