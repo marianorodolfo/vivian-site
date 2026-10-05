@@ -13389,3 +13389,10 @@ overflow: hidden;
         color: #000;
     }
 }
+
+@media (max-width: 650px) {
+    .project-card .choice-card-content {
+        left: 20px;
+        right: 20px;
+    }
+}
