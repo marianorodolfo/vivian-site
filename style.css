@@ -13374,6 +13374,11 @@ overflow: hidden;
     }
 }
 
+
+/* ==========================================================
+   RESPONSIVO NOVAS ATUALIZAÇÕES
+========================================================== */
+
 @media (max-width: 650px) {
     .about-photo-label {
         right: 10px;
@@ -13394,5 +13399,12 @@ overflow: hidden;
     .project-card .choice-card-content {
         left: 20px;
         right: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero .hero-script {
+        position: relative;
+        top: 10px;
     }
 }
