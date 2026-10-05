@@ -13406,5 +13406,6 @@ overflow: hidden;
     .hero .hero-script {
         position: relative;
         top: 10px;
+        text-align: right;
     }
 }
