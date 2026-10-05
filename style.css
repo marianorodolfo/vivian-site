@@ -13373,3 +13373,13 @@ overflow: hidden;
         display: block;
     }
 }
+
+@media (max-width: 650px) {
+    .about-photo-label {
+        right: 10px;
+        bottom: 10px;
+        min-width: 0;
+        width: max-content;
+        max-width: calc(100% - 20px);
+    }
+}
