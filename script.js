@@ -1787,6 +1787,37 @@ window.addEventListener(
     }
 );
 
+/* FECHAR MENU MOBILE AO CLICAR FORA */
+
+document.addEventListener("click", event => {
+
+    if (!sidebar || !mobileMenuButton) return;
+
+    if (!sidebar.classList.contains("open")) return;
+
+    if (mobileMenuButton.getClientRects().length === 0) return;
+
+    if (
+        sidebar.contains(event.target) ||
+        mobileMenuButton.contains(event.target)
+    ) {
+        return;
+    }
+
+    sidebar.classList.remove("open");
+
+    mobileMenuButton.setAttribute(
+        "aria-expanded",
+        "false"
+    );
+
+    mobileMenuButton.setAttribute(
+        "aria-label",
+        "Abrir menu"
+    );
+
+});
+
 /* ==========================================
  MANTER O ASSISTENTE FORA DO RODAPÉ
 ========================================== */
