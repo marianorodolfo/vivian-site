@@ -13383,3 +13383,9 @@ overflow: hidden;
         max-width: calc(100% - 20px);
     }
 }
+
+@media (max-width: 650px) {
+    .hero .hero-description {
+        color: #000;
+    }
+}
