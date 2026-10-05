@@ -13414,6 +13414,6 @@ overflow: hidden;
 @media (max-width: 650px) {
     .hero .hero-content h1 {
         position: relative;
-        top: 10px;
+        top: 15px;
     }
 }
