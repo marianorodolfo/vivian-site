@@ -1995,6 +1995,12 @@ if (heroVideo && customPlayButton && videoCard) {
 
             heroVideo.load();
 
+            customPlayButton.style.backgroundImage =
+                `linear-gradient(rgba(6, 27, 51, 0.15), rgba(6, 27, 51, 0.15)), url("${heroVideo.poster}")`;
+
+            customPlayButton.style.backgroundSize = "cover";
+            customPlayButton.style.backgroundPosition = "center";
+            customPlayButton.style.backgroundRepeat = "no-repeat";
         }
     );
 
