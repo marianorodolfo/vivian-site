@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Viaje Mais | Vivian Matsuura</title>
+
+    <meta name="description"
+        content="Descubra novas possibilidades para viajar e conheça a atividade de Independent inCruises Partner.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+       MENU LATERAL
+  ========================== -->
+
+    <aside class="sidebar" id="sidebar">
+
+        <a href="index.html" class="logo">
+            <div class="logo-icon">V</div>
+
+            <div class="logo-text">
+                <strong>VIAJE MAIS</strong>
+
+                <small>
+                    com Vivian Matsuura
+                </small>
+
+                <span class="partner-label">
+                    Independent inCruises Partner
+                </span>
+            </div>
+        </a>
+
+        <nav class="sidebar-menu">
+
+            <a href="#inicio" class="menu-item active" aria-current="page">
+                <span class="menu-icon">⌂</span>
+                <span class="menu-text">Início</span>
+            </a>
+
+            <a href="viajar.html" class="menu-item"> <span class="menu-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M8 10V5h8v5" />
+                        <path d="M10 5V2h4v3" />
+                        <path d="M12 8 3 12l3 7h12l3-7-9-4Z" />
+                        <path d="M12 8v11" />
+                        <path d="M3 22c1.5 0 1.5-1 3-1s1.5 1 3 1
+                 1.5-1 3-1 1.5 1 3 1 1.5-1 3-1 1.5 1 3 1" />
+                    </svg>
+                </span>
+                <span class="menu-text">Viajar</span>
+            </a>
+
+            <a href="projeto.html" class="menu-item"> <span class="menu-icon">$</span>
+                <span class="menu-text">Projeto</span>
+            </a>
+
+            <button class="menu-item menu-button" id="openAssistantMenu" type="button"
+                aria-label="Abrir assistente virtual">
+                <span class="menu-icon">✦</span>
+                <span class="menu-text">Assistente IA</span>
+            </button>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <a href="sobre.html" class="menu-item"> <span class="menu-icon">◉</span>
+                <span class="menu-text">Sobre mim</span>
+            </a>
+
+
+
+        </div>
+
+    </aside>
+
+
+    <!-- botão mobile -->
+
+    <button class="mobile-menu-button" id="mobileMenuButton" type="button" aria-label="Abrir menu"
+        aria-controls="sidebar" aria-expanded="false">
+        ☰
+    </button>
+
+
+    <!-- =========================
+       CONTEÚDO
+  ========================== -->
+
+    <main class="main-content">
+
+        <!-- HERO -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-top">
+                <span>VIAJE</span>
+                <i></i>
+                <span>PLANEJE</span>
+                <i></i>
+                <span>VIVA MAIS</span>
+            </div>
+
+
+            <div class="hero-layout">
+
+                <!-- TEXTO -->
+                <div class="hero-content">
+
+                    <p class="hero-script">
+                        Novos destinos. Novas histórias.
+                    </p>
+
+                    <h1>
+                        VIAJE MAIS,
+                        <span>VIVA MAIS!</span>
+                    </h1>
+
+
+
+                </div>
+
+
+                <!-- VÍDEO -->
+                <div class="hero-video-area">
+
+                    <div class="video-label">
+                        CONHEÇA EM 2 MINUTOS
+                    </div>
+
+                    <div class="video-card">
+
+                        <video id="heroVideo" preload="metadata" playsinline
+                            poster="imagens/WhatsApp Image 2026-09-20 at 23.43.30.jpeg">
+                            <source src="videos/video-site.mp4" type="video/mp4">
+                        </video>
+
+                        <button type="button" class="custom-play-button" id="customPlayButton"
+                            aria-label="Reproduzir vídeo">
+                            <span class="play-circle">
+                                <span class="play-triangle"></span>
+                            </span>
+
+                            <span class="play-text">
+                                ASSISTIR VÍDEO
+                            </span>
+                        </button>
+
+                    </div>
+
+
+                    <div class="video-caption">
+
+                        <span class="video-caption-line"></span>
+
+                        <span>
+                            Assista antes de escolher o seu caminho
+                        </span>
+
+                    </div>
+
+                    <p class="hero-description">
+                        Descubra uma nova forma de explorar o mundo,
+                        criar experiências e conhecer possibilidades
+                        que podem ir além da próxima viagem.
+                    </p>
+
+
+                    <a href="#escolha" class="hero-button hero-video-button" id="discoverButton">
+                        DESCOBRIR POSSIBILIDADES
+                        <span>↓</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- BENEFÍCIOS -->
+
+        <section class="benefits">
+
+            <div class="benefit">
+
+                <span class="benefit-icon">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M8 10V5h8v5" />
+                        <path d="M10 5V2h4v3" />
+                        <path d="M12 8 3 12l3 7h12l3-7-9-4Z" />
+                        <path d="M12 8v11" />
+                        <path d="M3 22c1.5 0 1.5-1 3-1s1.5 1 3 1
+                 1.5-1 3-1 1.5 1 3 1 1.5-1 3-1 1.5 1 3 1" />
+                    </svg>
+                </span>
+
+                <div>
+                    <strong>DESTINOS</strong>
+                    <small>INCRÍVEIS</small>
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <span class="benefit-icon planning-icon">
+                    ◇
+                </span>
+
+                <div>
+                    <strong>MAIS</strong>
+                    <small>PLANEJAMENTO</small>
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <span class="benefit-icon community-icon">
+                    ◎
+                </span>
+
+                <div>
+                    <strong>UMA</strong>
+                    <small>COMUNIDADE GLOBAL</small>
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <span class="benefit-icon heart-icon">
+                    ♥
+                </span>
+
+                <div>
+                    <strong>EXPERIÊNCIAS</strong>
+                    <small>QUE TRANSFORMAM</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ESCOLHA -->
+
+        <section class="choice-section" id="escolha">
+
+            <div class="section-pretitle">
+
+                <span></span>
+
+                QUAL CAMINHO COMBINA MAIS COM O SEU PERFIL?
+
+                <span></span>
+
+            </div>
+
+
+            <h2>
+                Escolha o caminho que quer explorar
+            </h2>
+
+
+            <p class="choice-subtitle">
+
+                Duas possibilidades.
+                Inicie sua jornada.
+
+            </p>
+
+
+
+            <div class="choice-grid">
+
+
+                <!-- VIAJAR -->
+
+                <a href="viajar.html" class="choice-card travel-card">
+
+                    <div class="choice-overlay"></div>
+
+
+                    <div class="choice-card-content">
+
+                        <div class="choice-icon">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.8"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M8 10V5h8v5" />
+                                <path d="M10 5V2h4v3" />
+                                <path d="M12 8 3 12l3 7h12l3-7-9-4Z" />
+                                <path d="M12 8v11" />
+                                <path d="M3 22c1.5 0 1.5-1 3-1s1.5 1 3 1
+                 1.5-1 3-1 1.5 1 3 1 1.5-1 3-1 1.5 1 3 1" />
+                            </svg>
+                        </div>
+
+
+                        <h3>
+
+                            QUERO VIAJAR<br>
+                            DE UMA FORMA<br>
+                            DIFERENTE
+
+                        </h3>
+
+
+                        <p>
+                            Tenha acesso aos benefícios globais,
+                            economize e planeie suas próximas viagens
+                            sem precisar de cartão de crédito.
+
+                        </p>
+
+
+                        <div class="choice-button gold-button">
+                            CONHECER COMO MEMBRO
+                            <span>→</span>
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- PROJETO -->
+
+                <a href="projeto.html" class="choice-card project-card">
+
+                    <div class="choice-overlay"></div>
+
+
+                    <div class="choice-card-content">
+
+                        <div class="choice-icon">
+                            $
+                        </div>
+
+
+                        <h3>
+                            QUERO CONHECER<br>
+                            O PROJETO E<br>
+                            VIAJAR O MUNDO
+                        </h3>
+
+
+                        <p>
+                            Tenha acesso a oportunidades de negócio, benefícios exclusivos e a possibilidade de viajar
+                            mais e melhor.
+
+                        </p>
+
+
+                        <div class="choice-button blue-button">
+                            CONHECER COMO SÓCIO MEMBRO
+                            <span>→</span>
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+            </div>
+
+
+
+            <div class="mini-benefits">
+
+                <div>
+
+                    <span>◎</span>
+
+                    <p>
+                        Explore o mundo<br>
+                        com mais liberdade
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <span>◉</span>
+
+                    <p>
+                        Partilhe experiências com pessoas<br>
+                        que também gostam de viajar
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <span>☼</span>
+
+                    <p>
+                        Viva experiências<br>
+                        que ficam para sempre
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="final-line">
+
+                <span></span>
+
+                VIAJAR É VIVER MAIS
+
+                <span></span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- AVISO -->
+
+        <section class="disclaimer">
+            <p>
+                Website independente de uma
+                <strong>Independent inCruises Partner</strong>.
+                Este não é o website corporativo oficial da inCruises.
+                Não existem rendimentos garantidos.
+            </p>
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+       ASSISTENTE IA
+  ========================== -->
+
+    <button class="assistant-floating" id="assistantFloating" type="button" aria-label="Abrir assistente virtual">
+
+        <span class="assistant-orb">
+            <span class="assistant-orb-core">✦</span>
+        </span>
+
+        <strong>
+            Posso ajudar?
+        </strong>
+
+    </button>
+
+
+
+    <div class="assistant-background" id="assistantBackground"></div>
+
+
+
+    <aside class="assistant" id="assistant" role="dialog" aria-modal="true" aria-label="Assistente Virtual"
+        aria-hidden="true">
+
+        <div class="assistant-header">
+
+            <div class="assistant-profile">
+
+                <div class="assistant-avatar">
+                    AI
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        Assistente Virtual
+                    </strong>
+
+                    <small>
+                        <span></span>
+                        online
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <button id="assistantClose" type="button" aria-label="Fechar assistente">
+                ×
+            </button>
+
+        </div>
+
+
+
+        <div class="assistant-messages" id="assistantMessages" aria-live="polite">
+
+            <div class="message bot">
+
+                Olá 👋
+
+                Sou a assistente virtual desta página.
+
+            </div>
+
+
+            <div class="message bot">
+
+                Posso ajudá-lo a conhecer as duas opções:
+                Membro, para aproveitar os benefícios de viagens,
+                ou Sócio Membro, para combinar viagens
+                com uma atividade independente.<br>
+                O que gostaria de esclarecer primeiro?
+
+            </div>
+
+
+            <div class="assistant-options">
+
+                <button type="button" data-intent="travel">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+
+                        <path d="M8 10V5h8v5" />
+                        <path d="M10 5V2h4v3" />
+                        <path d="M12 8 3 12l3 7h12l3-7-9-4Z" />
+                        <path d="M12 8v11" />
+                        <path d="M3 22c1.5 0 1.5-1 3-1s1.5 1 3 1
+            1.5-1 3-1 1.5 1 3 1 1.5-1 3-1 1.5 1 3 1" />
+                    </svg>
+
+                    Quero Viajar
+                </button>
+
+
+                <button type="button" data-intent="project">
+
+                    $ Conhecer a atividade como Sócio Membro
+
+                </button>
+
+
+                <button type="button" data-intent="cost">
+
+                    € Quero saber os custos
+
+                </button>
+
+
+                <button type="button" data-intent="contact">
+
+                    💬 Falar pelo WhatsApp
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <form class="assistant-input" id="assistantForm">
+
+            <input type="text" id="assistantInput" placeholder="Escreva a sua dúvida..." autocomplete="off"
+                aria-label="Escreva a sua dúvida">
+
+            <button type="submit" aria-label="Enviar mensagem">
+                ↑
+            </button>
+
+        </form>
+
+
+        <div class="assistant-warning">
+
+            Esclareça as suas dúvidas aqui.
+            Se decidir avançar como Membro ou Sócio Membro,
+            o assistente orienta o contacto com a Vivian.
+
+        </div>
+
+    </aside>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
