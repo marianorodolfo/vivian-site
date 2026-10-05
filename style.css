@@ -13367,3 +13367,9 @@ overflow: hidden;
         transition-duration: 0.01ms !important;
     }
 }
+
+@media (max-width: 650px) {
+    .hero h1 > span {
+        display: block;
+    }
+}
